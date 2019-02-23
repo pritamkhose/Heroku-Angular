@@ -1,0 +1,170 @@
+Your environment has been set up for using Node.js 8.11.2 (x64) and npm.
+
+C:\Users\Pritam>heroku --version
+heroku/7.22.0 win32-x64 node-v11.9.0
+
+C:\Users\Pritam>E:
+
+E:\>cd E:\Code\Java\AngularCLI\HerokuAngular
+
+E:\Code\Java\AngularCLI\HerokuAngular>heroku login
+heroku: Press any key to open up the browser to login or q to exit:
+Logging in... done
+Logged in as pritamkhose1@gmail.com
+
+E:\Code\Java\AngularCLI\HerokuAngular>heroku login -i
+heroku: Enter your login credentials
+Email [pritamkhose1@gmail.com]: pritamkhose1@gmail.com
+Password: ********
+Logged in as pritamkhose1@gmail.com
+
+E:\Code\Java\AngularCLI\HerokuAngular>heroku create
+Creating app... done, ⬢ safe-scrubland-25275
+https://safe-scrubland-25275.herokuapp.com/ | https://git.heroku.com/safe-scrubland-25275.git
+
+E:\Code\Java\AngularCLI\HerokuAngular>ng new heroku-angular
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? CSS
+CREATE heroku-angular/angular.json (3840 bytes)
+CREATE heroku-angular/package.json (1313 bytes)
+CREATE heroku-angular/README.md (1030 bytes)
+CREATE heroku-angular/tsconfig.json (435 bytes)
+CREATE heroku-angular/tslint.json (2824 bytes)
+CREATE heroku-angular/.editorconfig (246 bytes)
+CREATE heroku-angular/.gitignore (576 bytes)
+CREATE heroku-angular/src/favicon.ico (5430 bytes)
+CREATE heroku-angular/src/index.html (300 bytes)
+CREATE heroku-angular/src/main.ts (372 bytes)
+CREATE heroku-angular/src/polyfills.ts (3694 bytes)
+CREATE heroku-angular/src/test.ts (642 bytes)
+CREATE heroku-angular/src/styles.css (80 bytes)
+CREATE heroku-angular/src/browserslist (388 bytes)
+CREATE heroku-angular/src/karma.conf.js (980 bytes)
+CREATE heroku-angular/src/tsconfig.app.json (166 bytes)
+CREATE heroku-angular/src/tsconfig.spec.json (256 bytes)
+CREATE heroku-angular/src/tslint.json (314 bytes)
+CREATE heroku-angular/src/assets/.gitkeep (0 bytes)
+CREATE heroku-angular/src/environments/environment.prod.ts (51 bytes)
+CREATE heroku-angular/src/environments/environment.ts (662 bytes)
+CREATE heroku-angular/src/app/app-routing.module.ts (245 bytes)
+CREATE heroku-angular/src/app/app.module.ts (393 bytes)
+CREATE heroku-angular/src/app/app.component.html (1152 bytes)
+CREATE heroku-angular/src/app/app.component.spec.ts (1119 bytes)
+CREATE heroku-angular/src/app/app.component.ts (218 bytes)
+CREATE heroku-angular/src/app/app.component.css (0 bytes)
+CREATE heroku-angular/e2e/protractor.conf.js (752 bytes)
+CREATE heroku-angular/e2e/tsconfig.e2e.json (213 bytes)
+CREATE heroku-angular/e2e/src/app.e2e-spec.ts (306 bytes)
+CREATE heroku-angular/e2e/src/app.po.ts (204 bytes)
+npm WARN deprecated istanbul@0.4.5: This module is no longer maintained, try this instead:
+npm WARN deprecated   npm i nyc
+npm WARN deprecated Visit https://istanbul.js.org/integrations for other alternatives.
+npm WARN deprecated circular-json@0.5.9: CircularJSON is in maintenance only, flatted is its successor.
+npm WARN notice [SECURITY] webpack-dev-server has the following vulnerability: 1 high. Go here for more details: https://nodesecurity.io/advisories?search=webpack-dev-server&version=3.1.10 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+
+> node-sass@4.10.0 install E:\Code\Java\AngularCLI\HerokuAngular\heroku-angular\node_modules\node-sass
+> node scripts/install.js
+
+Cached binary found at C:\Users\Pritam\AppData\Roaming\npm-cache\node-sass\4.10.0\win32-x64-57_binding.node
+
+> node-sass@4.10.0 postinstall E:\Code\Java\AngularCLI\HerokuAngular\heroku-angular\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at E:\Code\Java\AngularCLI\HerokuAngular\heroku-angular\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Testing binary
+Binary is fine
+npm WARN ajv-keywords@3.4.0 requires a peer of ajv@^6.9.1 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1131 packages in 312.821s
+warning: LF will be replaced by CRLF in .editorconfig.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in angular.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/protractor.conf.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/src/app.e2e-spec.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/src/app.po.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/tsconfig.e2e.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app-routing.module.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.spec.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.module.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/browserslist.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/environments/environment.prod.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/environments/environment.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/karma.conf.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/main.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/polyfills.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/styles.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/test.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tsconfig.app.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tsconfig.spec.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tslint.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tsconfig.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tslint.json.
+The file will have its original line endings in your working directory.
+    Successfully initialized git.
+
+E:\Code\Java\AngularCLI\HerokuAngular>ng serve
+The serve command requires to be run in an Angular project, but a project definition could not be found.
+
+E:\Code\Java\AngularCLI\HerokuAngular>cd heroku-angular
+
+E:\Code\Java\AngularCLI\HerokuAngular\heroku-angular>ng serve
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+Date: 2019-02-23T05:11:24.897Z
+Hash: 09b129562d939be97257
+Time: 12108ms
+chunk {main} main.js, main.js.map (main) 11.5 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 237 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 16.3 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.67 MB [initial] [rendered]
+i ｢wdm｣: Compiled successfully.
+^CTerminate batch job (Y/N)? y
+
+E:\Code\Java\AngularCLI\HerokuAngular\heroku-angular>ng build --prod
+
+Date: 2019-02-23T05:20:53.326Z
+Hash: c4068eada64a7e038e77
+Time: 42770ms
+chunk {0} runtime.ec2944dd8b20ec099bf3.js (runtime) 1.41 kB [entry] [rendered]
+chunk {1} main.2bae487a9cb447bcc5cb.js (main) 262 kB [initial] [rendered]
+chunk {2} polyfills.e254f6b9bf511460eb6d.js (polyfills) 41 kB [initial] [rendered]
+chunk {3} styles.3ff695c00d717f2d2a11.css (styles) 0 bytes [initial] [rendered]
+
+E:\Code\Java\AngularCLI\HerokuAngular\heroku-angular>

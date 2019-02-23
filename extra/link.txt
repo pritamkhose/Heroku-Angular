@@ -1,0 +1,12 @@
+
+https://dashboard.heroku.com/apps
+
+https://medium.com/@hellotunmbi/how-to-deploy-angular-application-to-heroku-1d56e09c5147
+
+https://devcenter.heroku.com/articles/heroku-cli
+
+https://devcenter.heroku.com/articles/mean-apps-restful-api#set-up-the-angular-project-structure
+
+Login -
+pritamkhose1@gmail.com
+pritam@4
