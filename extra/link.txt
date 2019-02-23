@@ -10,3 +10,14 @@ https://devcenter.heroku.com/articles/mean-apps-restful-api#set-up-the-angular-p
 Login -
 pritamkhose1@gmail.com
 pritam@4
+
+
+https://medium.com/lacolaco-blog/try-angular-2-aot-compilation-ff5761a657c
+
+https://github.com/pritamkhose/Heroku-Angular
+https://dashboard.heroku.com/apps/pritam-ang/deploy/github
+https://pritam-ang.herokuapp.com/
+
+https://www.codewithjason.com/deploy-angular-cli-webpack-project-heroku/
+
+https://blog.devget.net/development/how-to-deploy-angular-6-project-to-heroku/

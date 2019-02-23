@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot -prod"
+    "preinstall": "npm install -g @angular/cli @angular/compiler-cli typescript",
+    "postinstall": "ng build --prod"
   },
   "private": true,
   "engines": {
@@ -26,6 +27,7 @@
     "@angular/router": "~7.1.0",
     "core-js": "^2.5.4",
     "express": "^4.16.4",
+    "npm-preinstall": "^1.0.7",
     "path": "^0.12.7",
     "postinstall": "^0.4.2",
     "rxjs": "~6.3.3",
